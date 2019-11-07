@@ -8,11 +8,32 @@ function laatikkoFunktio(boxNumber){
     }
     else if (boxNumber == 2){
         // toiminnallisuus puuttuu!
-    }
-    else{
+         document.getElementById("laatikko2").innerHTML = "<table style='width:100%'>" +
+         "<tr>"+
+            "<th>etunimi</th>"+
+            "<th>sukunimi</th>"+
+            "<th>Age</th>"+
+         "</tr>"+
+         "<tr>"+
+            "<td>jussi</td>"+
+            "<td>nousiainen</td>"+
+            "<td>17</td>"+
+         "</tr>"+
+         "<tr>"+
+            "<td>patrik</td>"+
+            "<td>räsänen</td>"+
+            "<td>17</td>"+
+         "</tr>"+
+        "</table>";    
         //toiminnallisuus puuttuu!
     }
-    
+    else if (boxNumber == 3){
+         document.getElementById("laatikko3").innerHTML = "<img src='smiley2.png'>";
+        //toiminnallisuus puuttuu!
+    }
+    else{
+        document.location.reload();
+    }
 }
 function yhteystietoFunktio() {
     var x = document.getElementById("yhteystietolomake");
@@ -22,4 +43,4 @@ function yhteystietoFunktio() {
       text += x.elements[i].value + "<br>";
     }
     document.getElementById("yhteystiedotTuloste").innerHTML = text;
-  }
+} 
