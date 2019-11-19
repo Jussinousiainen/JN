@@ -1,0 +1,8 @@
+Tietoa tallentavia järjestelmiä joita minä käytän/olen käyttänyt ovat= facebook, google, herätyskello ja yhteystiedot.
+
+
+
+
+
+
+Sovelluksen täytyy tallentaa saatuja tietoja QR-koodeista, kauppa voi hyödyntää tietoja siten että ne katsoo mitä ihmiset ostaa ja mistä tuotteista asiakkaat pitävät.
